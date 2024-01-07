@@ -42,9 +42,9 @@ if selected_option == "Speech":
 
 elif selected_option == "Summarize":
     text = user_input
-    prompt = f"Make a summary for this text: {text}"
+    user_prompt = f"Make a summary for this text: {text}"
     bot = tgpt2.TGPT()
-    st.write(bot.chat(prompt))
+    st.write(bot.chat(prompt=user_prompt))
 
 elif selected_option == "Youtube":
     pattern = re.compile(
