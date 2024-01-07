@@ -1,0 +1,8 @@
+speechrecognition==3.10.1
+tgpt2==0.0.5
+youtube-transcript-api==0.6.2
+translate==3.6.1
+easyocr==1.7.1
+kivy==2.2.1
+py-androidbuild==0.9
+python-for-android==2023.9.16
