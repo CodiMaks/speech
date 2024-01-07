@@ -60,7 +60,7 @@ elif selected_option == "Translate":
     dest_lang = random.choice(["en", "fr", "es", "pt", "de", "bg"])
     translator = Translator(to_lang=dest_lang)
     translation = translator.translate(user_input)
-    st.write(translation.text)
+    st.write(translation)
 
 elif selected_option == "Image":
     reader = easyocr.Reader(["en", "fr", "es", "pt"])
